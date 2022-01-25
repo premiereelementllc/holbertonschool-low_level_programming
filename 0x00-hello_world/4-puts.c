@@ -1,4 +1,9 @@
-/* writing our first compilable program using C */
+/**
+ * main -starting program
+(*
+ *Description: prints the phrase and a new line)?
+ *Return: return (0) required function
+ */
 
 #include <stdio.h>
 int main(void)
