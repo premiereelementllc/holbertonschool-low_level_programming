@@ -1,9 +1,9 @@
 /**
- * main -starting program
+* main -starting program
 (*
- *Description: prints the phrase and a new line)?
- *Return: return (0) required function
- */
+*Description: prints the phrase and a new line)?
+*Return: return (0) required function
+*/
 
 #include <stdio.h>
 int main(void)
