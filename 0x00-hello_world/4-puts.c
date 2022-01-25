@@ -1,6 +1,5 @@
 /* writing our first compilable program using C */
 
-
 #include <stdio.h>
 int main(void)
 {
