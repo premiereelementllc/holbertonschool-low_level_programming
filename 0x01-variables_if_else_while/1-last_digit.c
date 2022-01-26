@@ -3,7 +3,8 @@
  *this is the current problem
  *working diligently to anser
  *codeing the plugins and pointers
- * main - main function is void; 
+ *
+ * function main - main function is void;
  * Return: is value =null
  */
 
