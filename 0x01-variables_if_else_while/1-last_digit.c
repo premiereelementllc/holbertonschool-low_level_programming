@@ -1,9 +1,9 @@
-/**Description for short
+/* Description for short
  *this is the current problem
  *working diligently to anser
  *codeing the plugins and pointers
  *
- * main(void) serves as the starting point for program execution ushirotama's
+ * main serves as the starting point for program execution ushirotama's
  * Return: is value =null
  */
 
