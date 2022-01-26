@@ -3,7 +3,7 @@
  *working diligently to anser
  *codeing the plugins and pointers
  *
- * function main(void)
+ * main(void) serves as the starting point for program execution ushirotama's
  * Return: is value =null
  */
 
