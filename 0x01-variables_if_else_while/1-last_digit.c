@@ -1,10 +1,8 @@
-/* Description for short
- *this is the current problem
- *working diligently to anser
- *codeing the plugins and pointers
- *
- * main serves as the starting point for program execution ushirotama's
- * Return: is value =null
+/**
+ * main -starting program
+(*
+ *Description: prints the phrase and a new line)?
+ *Return: return (0) required function
  */
 
 #include <stdio.h>
