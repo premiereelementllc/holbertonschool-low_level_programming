@@ -1,14 +1,10 @@
 /**
  * Description for short
- *
- *
- *
- *
- *
- *
- *
- *
- * main function is void; return value = null
+ *this is the current problem
+ *working diligently to anser
+ *codeing the plugins and pointers
+ * main - main function is void; 
+ * Return: is value =null
  */
 
 #include <stdio.h>
