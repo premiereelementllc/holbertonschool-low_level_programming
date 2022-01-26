@@ -1,10 +1,9 @@
-/**
- * Description for short
+/**Description for short
  *this is the current problem
  *working diligently to anser
  *codeing the plugins and pointers
  *
- * function main - main function is void;
+ * function main(void)
  * Return: is value =null
  */
 
