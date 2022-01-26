@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
+/**
+ * question for using the decimal referenc marker
+ *
+ */
  
-/* question */
 int main(void)
 {
 	int n, k;
