@@ -1,12 +1,13 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <time.h>
 /**
  * Descrition for short 
  * main function is void
  * return value is null 
  */
- 
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 int main(void)
 {
 	int n, k;
