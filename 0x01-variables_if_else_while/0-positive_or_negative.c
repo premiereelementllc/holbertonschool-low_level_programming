@@ -5,8 +5,8 @@
  *Return: return (0) required function
  */
 
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 int main(void)
 {
