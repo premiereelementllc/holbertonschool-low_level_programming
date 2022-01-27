@@ -5,12 +5,13 @@
  * Return: 0
  */
 
-int main(void)
+
+void print_alphabet(void)
+
 
 {
-void print_alphabet(void)
-{
-	char(a2z);
+
+	char a2z;
 
 	for (a2z = 'a'; a2z <= 'z'; ++a2z)
 	{
@@ -18,5 +19,5 @@ void print_alphabet(void)
 	}
 
 	_putchar('\n');
-}
+
 }
