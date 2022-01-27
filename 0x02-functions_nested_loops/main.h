@@ -7,4 +7,4 @@
 
 int _putchar(char c);
 
-#endif /* MAIN_H *i/
+#endif /* MAIN_H */
