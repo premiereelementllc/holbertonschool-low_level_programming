@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
 
 /**
  * reverse_array- reverses array of integers
@@ -17,6 +16,6 @@ void reverse_array(int *a, int n)
 	{
 		front = *a;
 		*a++ = *load;
-		*load-- = temp;
+		*load-- = front;
 	}
 }
