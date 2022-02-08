@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 #include <stdio.h>
 
 /**
@@ -18,5 +18,5 @@ char *_strcat(char *dest, char *src)
 	for (i = 0; src[i]; i++, b++)
 		dest[b] = src[i];
 	dest[b] = 0;
-	return(dest);
+	return (dest);
 }
