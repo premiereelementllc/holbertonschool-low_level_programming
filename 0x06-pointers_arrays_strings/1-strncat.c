@@ -11,13 +11,26 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int fly = 0, i;
+	char *swing = dest;
 
-	while (dest[fly])
-		fly++;
+	while (*dest)
+	{
+		dest++;
+	}
 
-		for (i = 0; i < n && src[i] ; i++, fly++)
-		dest[fly] = src[i];
 
-		return (dest);
+		for (; n > 0; n--)
+		{
+			if (*src)
+			{
+				*dest++ = *src++;
+			}
+			else
+			{
+				*dest = '\0';
+				break;
+			}
+		}
+
+		return (swing);
 }
