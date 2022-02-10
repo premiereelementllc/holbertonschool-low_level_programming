@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _pust_recursion- prints a string
+ * _pust_recursion- prints a string recursive, followed by a new line.
  * @s: string
  */
 
