@@ -15,8 +15,9 @@ char *leet(char *input)
 
 	while (*input)
 	{
-		for (i = 0; letter[i]; i++)
+	       for (i = 0; letter[i]; i++)
 		{
+			if (*input == letter[i] || *input == letter[i] - 'a' + 'A')
 			*input = num[i];
 		}
 		input++;
