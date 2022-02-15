@@ -5,14 +5,15 @@
  * @str: string command
  */
 
-void _puts(char *str)
+char *_strcpy(char *dest, char *src)
 {
-	int n = 0;
+	int x = 0;
 
-		while (str[n] != 0)
-		{
-			_putchar(str[n]);
-			n++;
-		}
-	_putchar('\n');
+	while (src[x])
+	{
+		*(dest + x) = *(src + x);
+		x++;
+	}
+	dest[x] = '\0';
+	return (dest);
 }

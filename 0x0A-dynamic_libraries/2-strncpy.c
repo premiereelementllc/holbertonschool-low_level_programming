@@ -7,11 +7,20 @@
  * @n: plural character copy
  * Return: dest pointer
  */
-char *_memcpy(char *dest, char *src, unsigned int n)
+char *_strncpy(char *dest, char *src, int n)
 {
-	unsigned int j;
+	int x;
 
-	for (j = 0; j < n; j++)
-		dest[j] = src[j];
+	x = 0;
+	while (src[x] != 0 && x < n)
+	{
+		dest[x] = src[x];
+		x++;
+	}
+	while (x < n)
+	{
+		dest[x] = '\0';
+		x++;
+	}
 	return (dest);
 }
