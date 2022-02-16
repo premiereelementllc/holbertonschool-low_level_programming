@@ -10,12 +10,12 @@ int main(void)
 {
 	char c;
 
-	printf("Entera character: ");
+	printf("Enter a character: ");
 	scanf("%c", &c);
 
 	if (isdigit(c) == 0)
-		printf("%c Error\n", c);
-	else
 		printf("%c\n", c);
-	return (0);
+	else
+		printf("%cError\n", c);
+	return (1);
 }
