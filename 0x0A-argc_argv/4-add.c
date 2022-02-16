@@ -8,7 +8,9 @@
  * sum: adds two numbers
  */
 
-int main(int sum, int result)
+int sum(int, int)
+int main()
+
 {
 	char c;
 
@@ -20,13 +22,22 @@ int main(int sum, int result)
 
 	else
 		printf("%c\n", c);
-	return (1);
+	return (0);
 }
 
+int num1, num2, total;
 
-int sum(int y, int g)
 {
-	int result=y+g;
+	scanf("%d %d", &num1, &num2);
+	total = sum(num1, num2);
+	printf("%d", total);
+	getch();
+	return (0);
+}
 
-	return (result);
+int sum(int a, int b)
+{
+	int result=a+b;
+
+	return (result)
 }
