@@ -8,7 +8,7 @@
  * sum: adds two numbers
  */
 
-int main(void)
+int main(int sum, int result)
 {
 	char c;
 
