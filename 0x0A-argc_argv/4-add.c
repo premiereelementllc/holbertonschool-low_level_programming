@@ -26,7 +26,7 @@ int main(void)
 
 int sum(int y, int g)
 {
-	int result = y + g;
+	int result=y+g;
 
 	return (result);
 }
