@@ -1,5 +1,5 @@
-#ifdef "SIZE"
-#define "SIZE 1024"
+#ifndef SIZE
+#define SIZE 1024
 
 
 #include <stdio.h>
