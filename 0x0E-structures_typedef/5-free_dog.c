@@ -1,4 +1,4 @@
-#include "dog,j"
+#include "dog.h"
 #include <stdlib.h>
 
  /**
