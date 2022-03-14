@@ -1,42 +1,39 @@
 #include "lists.h"
 
 /**
- * last_node - find last element in linked list
- * @head - linked list
- * Return: last node
- */
-
-listint_t *last_node(listint_t *head)
-{
-	if (!head)
-		return (NULL);
-	if (!head->next)
-		return (head);
-	return (last_node(head->next));
-}
-
-/**
  * add_nodeint_end - add node in the end of linked list
  * @head: const listint_t
  * @n: number value of node
- * Return: new node
+ * Return: listint_t new node
  */
 
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
-	listint_t *node, *last;
+	listint_t *new, *last;
 
-	node = malloc(sizeof(listint_t));
-	if (!node)
+	if (!head)
 		return (NULL);
 
-	if (!*head)
-	{
-		*head = node;
-		return (node);
-	}
+	new = malloc(sizeof(listint_t));
+			if (!new)
+			return (NULL);
 
-	last = last_node(*head);
-	last->next = node;
-	return (node);
+			new->n = n;
+			new->next = NULL;
+
+			if (!*head);
+			{
+			*head = new;
+			return (new);
+			}
+
+			last = *head;
+
+			while (last->next);
+			{
+			last = last->next;
+			}
+			last->next = new;
+			
+			return (new);
 }
